@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Naeem Ahmed Sasoli – Resume</title>
+
+<style>
+  * { box-sizing: border-box; }
+
+  body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #d9eefe; /* light blue background */
+    color: #333;
+  }
+
+  .container {
+    max-width: 900px;
+    margin: 30px auto;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    padding: 25px 35px;
+  }
+
+  header {
+    text-align: center;
+    border-bottom: 2px solid #0078d7;
+    padding-bottom: 10px;
+  }
+
+  header h1 {
+    margin: 0;
+    color: #0078d7;
+    font-size: 28px;
+  }
+
+  header p {
+    font-size: 15px;
+    color: #555;
+  }
+
+  section {
+    margin-top: 25px;
+  }
+
+  section h2 {
+    border-left: 4px solid #0078d7;
+    padding-left: 10px;
+    color: #0078d7;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  ul {
+    list-style: square;
+    padding-left: 20px;
+  }
+
+  @media (max-width: 768px) {
+    .container {
+      padding: 20px;
+      margin: 15px;
+    }
+    header h1 { font-size: 22px; }
+    section h2 { font-size: 18px; }
+  }
+</style>
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <h1>Naeem Ahmed Sasoli</h1>
+      <p>Email: <a href="mailto:naeem@example.com">naeem@example.com</a> | Web Developer</p>
+    </header>
+
+    <section>
+      <h2>Education</h2>
+      <p><strong>Bachelor of Science in Computer Science</strong> – NUST (Expected Graduation 2026)</p>
+    </section>
+
+    <section>
+      <h2>Skills</h2>
+      <ul>
+        <li>HTML 5, CSS 3, JavaScript (ES6+)</li>
+        <li>Responsive Web Design & Flexbox/Grid Layout</li>
+        <li>Git, GitHub & Version Control</li>
+        <li>Basic React & Bootstrap</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Experience</h2>
+      <p><strong>Frontend Developer Intern – Devsinc (Pakistan)</strong><br>
+      <em>June 2024 – August 2024</em><br>
+      Worked on responsive interfaces and component optimization for in-house client dashboards using HTML, CSS, and modern JS frameworks.</p>
+    </section>
+
+    <section>
+      <h2>Projects</h2>
+      <ul>
+        <li><strong>FutureFound</strong> – Career Guidance App (Flutter + Firebase)</li>
+        <li><strong>Portfolio Website</strong> – Responsive personal portfolio using HTML, CSS, and media queries</li>
+      </ul>
+    </section>
+  </div>
+</body>
+</html>
